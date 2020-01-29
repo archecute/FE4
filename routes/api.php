@@ -17,6 +17,6 @@ use Illuminate\Http\Request;
 Route::any('exercise-1', 'Exercise1');
 Route::any('arche-2', 'Exercise2');
 Route::any('arche-3', 'Exercise3@index');
-Route::any('exercise-3/store', 'Exercise3@store');
+Route::any('arche-3/store', 'Exercise3@store');
 Route::any('exercise-final', 'ExerciseFinal@login');
 Route::any('exercise-final/store', 'ExerciseFinal@store');
